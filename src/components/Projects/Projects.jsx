@@ -49,12 +49,12 @@ export default function Proyectos() {
   ];
   return (
     <div className="pb-10" id="proyects">
-      <h2 className="font-marven text-center pt-40 pb-10 text-5xl text-white ">
+      <h2 className="font-marven text-center pt-20 pb-10 text-5xl text-white ">
         <span className="border-b-4 rounded-lg pb-1 text-yellow-300">
           Proyects
         </span>
       </h2>
-      <div className=" justify-center md:flex md:justify-center" id="proyectos">
+      <div className=" justify-center lg:flex md:justify-center" id="proyectos">
         {proyectos?.map((c) => {
           return (
             <div>

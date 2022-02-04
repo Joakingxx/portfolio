@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Cards({ proyectos }) {
   return (
-    <div className="rounded-[12px] h-full mx-4 border-2 border-yellow-300 text-white  bg-card">
+    <div className="rounded-[12px] mb-4 pb-2 h-full mx-4 border-2 border-yellow-300 text-white  bg-card">
       <div>
-        <h3 className="px-20 py-6 text-4xl">
+        <h3 className="px-20 py-6 text-xl lg:text-4xl">
           <span className="border-b-2  border-yellow-300 rounded-lg">
             {proyectos.nombre}
           </span>
@@ -14,7 +14,7 @@ export default function Cards({ proyectos }) {
           <img className="px-4 " src={proyectos.imagen} alt="Proyecto" />
         </div>
         <a className="text-2xl ">{proyectos.descripcion}</a>
-        <div className="pt-2 text-xl">
+        <div className="pt-2 text-l lg:text-xl">
           <h5 className="">Tecnologías:</h5>
           {proyectos.tecnologias?.map((c, i) => {
             if (i === 0) {
