@@ -8,7 +8,7 @@ export default function Home() {
         <div>
           <div>
             <img
-              className="pb-2 pl-2 border-b-2  border-l-2  border-yellow-300 mx-auto h-full  rounded-full bg-cover  bg-center"
+              className="pb-2 pl-2 border-b-2 h-60 border-l-2  border-yellow-300 mx-auto lg:h-full  rounded-full bg-cover  bg-center"
               src={Foto}
               alt="foto"
             />
