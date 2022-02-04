@@ -13,13 +13,13 @@ export default function Cards({ proyectos }) {
           {" "}
           <img className="px-4 " src={proyectos.imagen} alt="Proyecto" />
         </div>
-        <a className="text-2xl ">{proyectos.descripcion}</a>
+        <span className="text-2xl ">{proyectos.descripcion}</span>
         <div className="pt-2 text-l lg:text-xl">
           <h5 className="">Tecnologías:</h5>
           {proyectos.tecnologias?.map((c, i) => {
             if (i === 0) {
               return (
-                <span>
+                <span key={c}>
                   -{c} <br />
                 </span>
               );

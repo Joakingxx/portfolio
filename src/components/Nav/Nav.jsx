@@ -8,7 +8,7 @@ export default function Nav() {
       <div className="flex space-x-10 items-center mx-10 my-4">
         <div>
           {" "}
-          <a className="hover:border-b-2 rounded ">Resume</a>
+          <span className="hover:border-b-2 rounded ">Resume</span>
         </div>
         <div>
           <a href="#about" className=" hover:border-b-2 rounded ">
@@ -16,13 +16,13 @@ export default function Nav() {
           </a>
         </div>
         <div className="hover:border-b-2 rounded">
-          <a href="https://github.com/Joakingxx" target="_blank">
+          <a href="/https://github.com/Joakingxx" target="_blank">
             <GithubLogo />
           </a>
         </div>
         <div className="hover:border-b-2 rounded ">
           <a
-            href="https://www.linkedin.com/in/joaquinalvarezflores/"
+            href="/https://www.linkedin.com/in/joaquinalvarezflores/"
             target="_blank"
           >
             <LinkedinLogo />

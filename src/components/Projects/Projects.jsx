@@ -57,7 +57,7 @@ export default function Proyectos() {
       <div className=" justify-center lg:flex md:justify-center" id="proyectos">
         {proyectos?.map((c) => {
           return (
-            <div>
+            <div key={c.nombre}>
               <Cards proyectos={c} />
             </div>
           );
