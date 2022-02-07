@@ -51,7 +51,7 @@ export default function Proyectos() {
     <div className="pb-10" id="proyects">
       <h2 className="font-marven text-center pt-20 pb-10 text-5xl text-white ">
         <span className="border-b-4 rounded-lg pb-1 text-yellow-300">
-          Proyects
+          Proyectos
         </span>
       </h2>
       <div className=" justify-center lg:flex md:justify-center" id="proyectos">

@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactComponent as GithubLogo } from "../../svgs/githhh.svg";
 import { ReactComponent as LinkedinLogo } from "../../svgs/linkedin.svg";
+import cv from "../../cv/CV.pdf";
 
 export default function Nav() {
   return (
@@ -8,11 +9,18 @@ export default function Nav() {
       <div className="flex space-x-10 items-center mx-10 my-4">
         <div>
           {" "}
-          <span className="hover:border-b-2 rounded ">Resume</span>
+          <a
+            href={cv}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:border-b-2 rounded "
+          >
+            CV
+          </a>
         </div>
         <div>
           <a href="#about" className=" hover:border-b-2 rounded ">
-            About
+            Sobre mí
           </a>
         </div>
         <div className="hover:border-b-2 rounded  ">

@@ -6,23 +6,24 @@ export default function About() {
       <div className="text-2xl  ">
         <h2 className="font-marven text-center pt-40 pb-10 text-5xl text-white ">
           <span className="border-b-4 rounded-lg pb-1 text-yellow-300">
-            About me
+            Sobre mí
           </span>
         </h2>
         <p className="">
-          I was born and live in Montevideo, Uruguay. I'm 20 years old.
-          <br />I am a programming fan, since I was very young
+          Actualmente vivo en Montevideo, Uruguay y tengo 20 años de edad.
+          <br />
+          Desde pequeño me fascinan las computadores y siempre e sido muy
+          curioso. Desde hace un tiempo me encuentro estudiando programación y
           <span className="text-yellow-300">
             {" "}
-            I liked everything related to solving problems
+            me fascina aprender nuevas tecnologías.
           </span>
-          , challenges, etc. I love to research and learn new technologies on my
-          free time. I am an organized, team worker and fast learner person. I
-          believe that you can go further{" "}
+          Me considero una persona{" "}
           <span className="text-yellow-300">
             {" "}
-            in a team than if you go on your own.{" "}
+            proactiva, organizada, empatica y con ganas de aprender.{" "}
           </span>
+          En mi tiempo libre me gusta compartir en familia y practicar Futbol.
         </p>
       </div>
       <div className="pt-4">

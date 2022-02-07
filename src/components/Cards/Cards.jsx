@@ -32,13 +32,13 @@ export default function Cards({ proyectos }) {
           })}
         </div>
         <div className="pt-4">
-          <button className="border-2 mx-43 px-4 mx-4 hover:bg-violet-600 bg-violet-500 rounded-lg">
+          <button className="border-2 mx-43 px-4 mx-4 lg:text-2xl lg:hover:bg-yellow-400 bg-yellow-300 text-black font-semibold">
             <a href={proyectos.repositorio} target="_blank" rel="noreferrer">
               Code
             </a>
           </button>
           {proyectos.deploy ? (
-            <button className="border-2 px-4 my-4 bg-violet-500 hover:bg-violet-600 rounded-lg">
+            <button className="border-2 mx-43 px-4 mx-4  lg:text-2xl lg:hover:bg-yellow-400 bg-yellow-300 text-black font-semibold">
               <a href={proyectos.deploy} target="_blank" rel="noreferrer">
                 Deploy
               </a>

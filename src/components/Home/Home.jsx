@@ -13,19 +13,19 @@ export default function Home() {
               alt="foto"
             />
           </div>
-          <div className=" text-white text-4xl">
-            Hi! I'm{" "}
+          <div className=" text-white text-3xl">
+            Hola!, yo soy{" "}
             <span className="text-yellow-300 border-b-2 ">
               {" "}
               Joaquin Alvarez
             </span>
           </div>
-          <div className="text-4xl py-5">
+          <div className="text-3xl py-5">
             <h3>
               <span className=" text-white border-b-2 border-black-100">
                 {" "}
-                I am a creative Full Stack developer who always wants to learn
-                more.
+                Un desarrollador FullStack, muy apasionado y entusiasta por la
+                tecnología!
               </span>
             </h3>
           </div>
@@ -33,12 +33,12 @@ export default function Home() {
             <a href="#proyects">
               {" "}
               <button className="mr-4 text-white  md:text-4xl md:px-10 px-5 min-w-sm pb-1 rounded-lg border-4 md:h-16  animate-bounce hover:border-yellow-300  ">
-                Projects
+                Proyectos
               </button>
             </a>
             <a href="#skills">
               <button className="text-white md:text-4xl md:px-10 px-5 min-w-sm pb-1 rounded-lg border-4 md:h-16  animate-bounce hover:border-yellow-300  ">
-                Skills
+                Habilidades
               </button>
             </a>
           </div>
