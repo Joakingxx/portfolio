@@ -12,7 +12,7 @@ export default function About() {
         <p className="">
           Actualmente vivo en Montevideo, Uruguay y tengo 20 años de edad.
           <br />
-          Desde pequeño me fascinan las computadores y siempre e sido muy
+          Desde pequeño me fascinan las computadoras y siempre e sido muy
           curioso. Desde hace un tiempo me encuentro estudiando programación y
           <span className="text-yellow-300">
             {" "}
