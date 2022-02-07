@@ -16,13 +16,18 @@ export default function Nav() {
           </a>
         </div>
         <div className="hover:border-b-2 rounded  ">
-          <a href="/https://github.com/Joakingxx" target="_blank">
+          <a
+            href="https://github.com/Joakingxx"
+            rel="noreferrer"
+            target="_blank"
+          >
             <GithubLogo />
           </a>
         </div>
         <div className=" hover:border-b-2 rounded ">
           <a
-            href="/https://www.linkedin.com/in/joaquinalvarezflores/"
+            href="https://www.linkedin.com/in/joaquinalvarezflores/"
+            rel="noreferrer"
             target="_blank"
           >
             <LinkedinLogo />
