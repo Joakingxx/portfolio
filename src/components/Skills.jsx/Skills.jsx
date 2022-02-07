@@ -21,29 +21,66 @@ export default function Skills() {
         </span>
       </h2>
       <div className="">
-        <div className=" flex w-full flex-col lg:flex-row  lg:justify-around pt-6  ">
+        <div className="text-yellow-100 flex w-full flex-col lg:flex-row  lg:justify-around pt-6  ">
           <div className="flex pb-4 lg:border-t-8 lg:border-l-8 pt-2 border-yellow-300">
-            <ReactLogo className="h-20 w-40 lg:h-32 " />
-            <ReduxLogo className="h-20 w-40 lg:h-32 " />
-            <HTMLLogo className="h-20 w-40 lg:h-32 " />
+            <div className="">
+              {" "}
+              <ReactLogo className="h-20 w-40 lg:h-32 " />
+              <span>React.js</span>
+            </div>
+            <div>
+              <ReduxLogo className="h-20 w-40 lg:h-32 " />
+              <span>Redux</span>
+            </div>
+            <div>
+              <HTMLLogo className="h-20 w-40 lg:h-32 " />
+              <span>HTML5</span>
+            </div>
           </div>
           <div className="flex pb-4 lg:border-r-8 lg:border-t-8 pt-2   border-yellow-300">
-            <NodeJSLogo className="h-20 w-40 lg:h-32  " />
-            <SequelizeLogo className="h-20 w-40 lg:h-32 " />
-            <ExpressLogo className="h-20 w-40 lg:h-32  lg:pt-6 pl-10" />
+            <div>
+              <NodeJSLogo className="h-20 w-40 lg:h-32  " />
+              <span>NodeJS</span>
+            </div>
+            <div>
+              <SequelizeLogo className="h-20 w-40 lg:h-32 " />
+              <span>Sequelize</span>
+            </div>
+            <div>
+              <ExpressLogo className="h-20 w-40 lg:h-32  lg:pt-6 lg:pl-2" />
+              <span>Express JS</span>
+            </div>
           </div>
         </div>
-        <div className=" flex w-full flex-col lg:flex-row md:justify-around pt-6 ">
+        <div className="text-yellow-100 flex w-full flex-col lg:flex-row md:justify-around pt-6 ">
           <div className="flex pb-4 lg:border-l-8 lg:border-b-8 border-yellow-300">
-            <CSSLogo className="h-20 w-40 lg:h-32 " />
-            <JSLogo className="pt-4 h-20 w-40 lg:h-32 " />
-            <GitLogo className="pl-6 h-20 w-40 lg:h-32 " />
+            <div>
+              <CSSLogo className="h-20 w-40 lg:h-32 " />
+              <span>CSS</span>
+            </div>
+            <div>
+              <JSLogo className="pt-4 h-20 w-40 lg:h-32 " />
+              <span>JavaScript</span>
+            </div>
+            <div>
+              <GitLogo className=" h-15 w-40 lg:h-32 " />
+              <span>Git</span>
+            </div>
           </div>
 
           <div className="flex  lg:border-b-8 lg:border-r-8 border-yellow-300 ">
-            <PostgreSQLLogo className="pl-8 h-20 w-40 lg:h-32 " />
-            <PostmanLogo className="h-20 w-40 lg:h-32 " />
-            <GithubLogo className="h-20 w-40 lg:h-32 " />
+            <div>
+              <PostgreSQLLogo className="pl-8 h-20 w-40 lg:h-32 " />
+              <span>PostgreSQL</span>
+            </div>
+            <div>
+              <PostmanLogo className="h-20 w-40 lg:h-32 " />
+              <span>Postman</span>
+            </div>
+            <div>
+              <GithubLogo className="h-20 w-40 lg:h-32 " />
+              <span>GitHub</span>
+            </div>
           </div>
         </div>
       </div>

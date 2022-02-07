@@ -4,7 +4,7 @@ import { ReactComponent as LinkedinLogo } from "../../svgs/linkedin.svg";
 
 export default function Nav() {
   return (
-    <nav className=" lg:text-4xl  border-indigo-100 flex justify-end items-center  border-b-2 text-black  ">
+    <nav className=" lg:text-3xl   border-indigo-100 flex justify-end   border-b-2 text-white  ">
       <div className="flex space-x-10 items-center mx-10 my-4">
         <div>
           {" "}
@@ -15,12 +15,12 @@ export default function Nav() {
             About
           </a>
         </div>
-        <div className="hover:border-b-2 rounded">
+        <div className="hover:border-b-2 rounded  ">
           <a href="/https://github.com/Joakingxx" target="_blank">
             <GithubLogo />
           </a>
         </div>
-        <div className="hover:border-b-2 rounded ">
+        <div className=" hover:border-b-2 rounded ">
           <a
             href="/https://www.linkedin.com/in/joaquinalvarezflores/"
             target="_blank"

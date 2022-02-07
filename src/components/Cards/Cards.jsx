@@ -4,7 +4,7 @@ export default function Cards({ proyectos }) {
   return (
     <div className="rounded-[12px] mb-4 pb-2 h-full mx-4 border-2 border-yellow-300 text-white  bg-card">
       <div>
-        <h3 className="px-20 py-6 text-xl lg:text-4xl">
+        <h3 className="px-20 py-6 text-xl lg:text-3xl">
           <span className="border-b-2  border-yellow-300 rounded-lg">
             {proyectos.nombre}
           </span>

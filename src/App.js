@@ -7,7 +7,7 @@ import Proyectos from "./components/Projects/Projects";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-fontDefault  font-semibold">
       <div className="bg-background">
         <Nav />
         <Home />

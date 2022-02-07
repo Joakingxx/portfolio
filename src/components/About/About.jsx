@@ -28,7 +28,7 @@ export default function About() {
       <div className="pt-4">
         {" "}
         <img
-          className="mx-auto rounded-full pb-2 pl-2 h-60 md:h-96  py-4 border-b-2  border-l-2  border-yellow-300 "
+          className="mx-auto rounded-full pb-2 pl-2 h-64 lg:h-[42rem]  py-4 border-b-2  border-l-2  border-yellow-300 "
           src={Fut}
           alt="foto"
         />
