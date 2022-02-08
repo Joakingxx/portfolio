@@ -39,7 +39,7 @@ export default function Proyectos() {
     },
     {
       nombre: "Mi Primer NFT",
-      descripcion: "Crete a NFT with Smart Contract",
+      descripcion: "Create a NFT with Smart Contract",
       tecnologias: ["React", "Solidity", "Web3", "CSS Modules"],
       repositorio: "https://github.com/Joakingxx/MiPrimerNFT",
       imagen:
