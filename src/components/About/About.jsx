@@ -18,12 +18,13 @@ export default function About() {
             {" "}
             me fascina aprender nuevas tecnologías.
           </span>
-          Me considero una persona{" "}
+          {"  "}
+          Soy una persona{" "}
           <span className="text-yellow-300">
             {" "}
             proactiva, organizada, empatica y con ganas de aprender.{" "}
           </span>
-          En mi tiempo libre me gusta compartir en familia y practicar Futbol.
+          En mi tiempo libre me gusta compartir en familia y practicar futbol.
         </p>
       </div>
       <div className="pt-4">
